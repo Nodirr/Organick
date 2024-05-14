@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 95%;
+}
+
+.navbar-brand{
+    img{
+        width: 65%;
+    }
+}
+.nav-link{
+    a{
+        color: black !important;
+        font-size: 10px;
+        font-weight: 900;
+    }
+}
+
+.img11{
+    img{
+        width: 100%;
+    }
+}
+
+.card{
+    width: 335px;
+    height: 483px;
+    
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    border: 5px solid #F9F8F8;
+    img{
+        width: 300px;
+        height: 324px;
+        
+    }
+     button{
+  text-decoration: none;
+  background-color: #274C5B;
+  width: 96px;
+  height: 31px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  text-align: center;
+  margin-top: 30px;
+    }
+    span{
+        color: 
+        #B8B8B8;
+        text-decoration: line-through;
+        font-size: 14px;
+    }
+    b{
+        color: #274C5B;
+      font-weight: 700;
+      font-size: 16px;
+      
+    }
+    h1{
+        font-weight: 600;
+        font-size: 20px;
+        color: #274C5B;
+    }
+}
+
+.bcc{
+    display: flex;
+    gap: 50px;
+}
+
+.m-main{
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+.a-main{
+    background: url(image/Photo.jpg) no-repeat center center/cover;
+    width: 
+    1390px;
+    height: 
+    239px;
+    border-radius: 30px;
+    display: flex;
+ 
+    justify-content: space-around;
+    align-items: center;
+    h1{
+        color: white;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    form{
+        button{
+            background-color: #274C5B;
+            border: none;
+            color: white;
+            width: 220px;
+            height: 80px;
+            border-radius: 16px;
+
+        }
+    }
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: max-content;
+   
+    color: 
+    #525C60;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+.items p{
+    padding: 7px;
+}
